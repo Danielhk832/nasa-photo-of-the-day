@@ -15,8 +15,8 @@ function App() {
       getPic(res.data.hdurl);
       getTitle(res.data.title);
       getExplanation(res.data.explanation);
-      gsap.from(".pic", { duration: 2.25, opacity: 0, y: 150 });
-      gsap.from(".text", { duration: 2.25, opacity: 0, y: -150 });
+      gsap.from(".pic", { duration: 1.5, opacity: 0, y: 900 });
+      gsap.from(".text", { duration: 1.5, opacity: 0, y: -900 });
     });
   }, []);
 
